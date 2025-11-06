@@ -30,9 +30,15 @@ This is a modular test code developed during the R&D phase of a commercial choco
 
 ## 🛠️ Other Embedded Systems Projects (Summaries)
 
-* **[Proje Adı 2]:** Brief description of the project, focusing on the problem solved (e.g., *Multi-channel data logging system for pressure sensors using ESP32 and MQTT for cloud transmission*).
-* **[Proje Adı 3]:** Brief description (e.g., *Stepper motor control system implemented in C for a precision dosing machine with limit switch integration*).
-* **[Proje Adı 4]:** Brief description (e.g., *Remote power management unit using Arduino and custom relay shields controlled via a simple serial interface*).
+### **1. Magnetic Wheel Surface Preparation Rover**
+
+* **Problem:** Designing a remote-controlled, magnetic-wheeled robot capable of moving across a ship's hull to perform automated surface preparation (paint and rust removal). This eliminates the need for scaffolding and high-risk manual labor.
+* **Technology & Control:** The system features a custom control board driving **four powerful BLDC motors** for magnetic adhesion and locomotion.
+* **Communication:** Utilizes **nRF (Nordic) radio frequency modules** for reliable, low-latency communication between the custom-built remote control unit and the on-board robot controller.
+* **Core Function:** The device utilizes **pressurized sandblasting** (abrasive media) to strip paint and residue from the hull.
+* **Result:** Demonstrates expertise in custom hardware design, robust motor control (BLDC), embedded programming, and secure RF communication protocols for critical industrial applications.
+* 
+*
 
 ---
 
