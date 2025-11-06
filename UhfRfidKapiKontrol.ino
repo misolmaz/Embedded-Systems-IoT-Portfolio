@@ -29,8 +29,8 @@ const unsigned long SEND_INTERVAL = 30000;  // 30 saniye (veri gönderim periyod
 unsigned long lastSendTime = 0;
 
 // Wi-Fi Ayarları
-const char *ssid = "SUPERONLINE_WiFi_CCA8";
-const char *password = "NNC3E3M9F4PU";
+const char *ssid = "YOUR SSID";
+const char *password = "*************;
 const char *serverURL = "https://192.168.1.61:7126/api/RFID";
 
 
