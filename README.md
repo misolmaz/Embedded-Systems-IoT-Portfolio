@@ -38,7 +38,15 @@ This is a modular test code developed during the R&D phase of a commercial choco
 * **Core Function:** The device utilizes **pressurized sandblasting** (abrasive media) to strip paint and residue from the hull.
 * **Result:** Demonstrates expertise in custom hardware design, robust motor control (BLDC), embedded programming, and secure RF communication protocols for critical industrial applications.
 * 
-*
+*### **2. Industrial UHF RFID Asset Security System (Gate Control)**
+
+* **Problem:** Implementing a robust industrial security solution to track high-value, tagged assets in real-time, specifically to monitor unauthorized entry/exit from a factory or defined area using UHF RFID readers.
+* **Technology:** Developed the firmware on an **ESP32** microcontroller (or similar) to manage the entire process from sensor to cloud/API.
+* [cite_start]**Core Function:** The system manages **two active UHF RFID antennas** [cite: 40][cite_start], performs **Fast Switch Inventory** [cite: 36, 41][cite_start], and determines the asset's movement direction (**"IN" or "OUT"** [cite: 62]) based on the antenna ID.
+* [cite_start]**Data & Network:** Uses **time-windowed deduplication** [cite: 31, 58] [cite_start]to ensure data accuracy and transmits processed movement data (EPC, AntennaID, Action) via **secure HTTPS POST** requests to a Web API [cite: 65, 67, 33] [cite_start]in JSON format[cite: 67, 71].
+* [cite_start]**Result:** Demonstrates expertise in secure IoT communication, low-level serial protocol parsing (custom frame/checksum validation [cite: 46, 49]), and data pipeline management for critical industrial tracking.
+
+> ➡️ **Access the Code:** The core firmware logic (excluding the full commercial API integration) is available in this repository as `UhfRfidKapiKontrol.ino`.
 
 ---
 
